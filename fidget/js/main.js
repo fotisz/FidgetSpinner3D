@@ -53,7 +53,7 @@ function init() {
 
   loader.load('models/Ball_Bearing.stl', function(geometry) {
     var bearingMat = new THREE.MeshPhongMaterial({
-      color: 0x000000, specular: 0x111111, shininess: 200,
+      color: 0xFF0033, specular: 0x111111, shininess: 200,
     });
     bearing = new THREE.Mesh(geometry, bearingMat);
 
