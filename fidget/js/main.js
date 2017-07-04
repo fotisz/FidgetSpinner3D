@@ -23,7 +23,7 @@ function init() {
   // Binary files
   var loader = new THREE.STLLoader();
   var material = new THREE.MeshPhongMaterial({
-    color: 0xFFFFFF, specular: 0x111111, shininess: 200,
+    color: 0xFF0000, specular: 0x111111, shininess: 200,
   });
 
   loader.load('models/Smooth_Tiny_Spinner.stl', function(geometry) {
@@ -53,7 +53,7 @@ function init() {
 
   loader.load('models/Ball_Bearing.stl', function(geometry) {
     var bearingMat = new THREE.MeshPhongMaterial({
-      color: 0xFF0033, specular: 0x111111, shininess: 200,
+      color: 0x000000, specular: 0x111111, shininess: 200,
     });
     bearing = new THREE.Mesh(geometry, bearingMat);
 
